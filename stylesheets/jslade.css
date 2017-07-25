@@ -1,0 +1,278 @@
+@import url("https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Architects+Daughter|Dancing+Script|Gloria+Hallelujah|Handlee|Indie+Flower|Kaushan+Script|Marck+Script|Permanent+Marker|Satisfy|Shadows+Into+Light");
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900|Raleway:100,200,300,400,500,600,700,800,900');
+
+table tr:nth-child(16) td div {
+  background-image: url("../project-images/touch-box.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; }
+table tr:nth-child(16) td:hover div {
+  width: 95px;
+  height: 95px;
+  margin: -10px;
+  z-index: 1; }
+table tr:nth-child(16) td:hover ~ .name h3 {
+  margin-left: 40px; }
+
+table tr:nth-child(10) td div {
+  background-image: url("../project-images/circle_final.png");
+  background-size: cover;
+  background-repeat: no-repeat; }
+table tr:nth-child(10) td:hover div {
+  width: 95px;
+  height: 95px;
+  margin: -10px;
+  z-index: 1; }
+table tr:nth-child(10) td:hover ~ .name h3 {
+  margin-left: 40px; }
+
+table tr:nth-child(2) td div {
+  background-image: url("../project-images/jshelp-highlight.png");
+  background-size: cover;
+  background-repeat: no-repeat; }
+table tr:nth-child(2) td:hover div {
+  width: 95px;
+  height: 95px;
+  margin: -10px;
+  z-index: 1; }
+table tr:nth-child(2) td:hover ~ .name h3 {
+  margin-left: 40px; }
+
+table tr:nth-child(6) td div {
+  background-image: url("../project-images/v-jam.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; }
+table tr:nth-child(6) td:hover div {
+  width: 95px;
+  height: 95px;
+  margin: -10px;
+  z-index: 1; }
+table tr:nth-child(6) td:hover ~ .name h3 {
+  margin-left: 40px; }
+
+  table tr:nth-child(4) td div {
+    background-image: url("../project-images/lil-guy-sky.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; }
+  table tr:nth-child(4) td:hover div {
+    width: 95px;
+    height: 95px;
+    margin: -10px;
+    z-index: 1; }
+  table tr:nth-child(4) td:hover ~ .name h3 {
+    margin-left: 40px; }
+
+    table tr:nth-child(18) td div {
+      background-image: url("../project-images/leds-arduino.jpg");
+      background-size: cover;
+      background-repeat: no-repeat; }
+    table tr:nth-child(18) td:hover div {
+      width: 95px;
+      height: 95px;
+      margin: -10px;
+      z-index: 1; }
+    table tr:nth-child(18) td:hover ~ .name h3 {
+      margin-left: 40px; }
+
+    table tr:nth-child(12) td div {
+      background-image: url("../project-images/cornell-box-thumb.png");
+      background-size: cover;
+      background-repeat: no-repeat; }
+    table tr:nth-child(12) td:hover div {
+      width: 95px;
+      height: 95px;
+      margin: -10px;
+      z-index: 1; }
+    table tr:nth-child(12) td:hover ~ .name h3 {
+      margin-left: 40px; }
+
+      table tr:nth-child(8) td div {
+        background-image: url("../project-images/quadTreePoint2.png");
+        background-size: cover;
+        background-repeat: no-repeat; }
+      table tr:nth-child(8) td:hover div {
+        width: 95px;
+        height: 95px;
+        margin: -10px;
+        z-index: 1; }
+      table tr:nth-child(8) td:hover ~ .name h3 {
+        margin-left: 40px; }
+
+      table tr:nth-child(14) td div {
+        background-image: url("../project-images/vpl-nest.jpg");
+        background-size: cover;
+        background-repeat: no-repeat; }
+      table tr:nth-child(14) td:hover div {
+        width: 95px;
+        height: 95px;
+        margin: -10px;
+        z-index: 1; }
+      table tr:nth-child(14) td:hover ~ .name h3 {
+        margin-left: 40px; }
+
+td {
+  padding: 0px; }
+
+table {
+  border-collapse: collapse; }
+
+.circle {
+  border-radius: 100%;
+  border: 2px solid;
+  width: 75px;
+  height: 75px;
+  position: relative; }
+
+#left {
+  margin-left: 20%;
+  }
+
+#name {
+  border: 2px double;
+  outline: 2px solid;
+  outline-offset: -5px;
+  text-align: center;
+  margin: auto;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+#juliet {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+font-size: 3rem;
+}
+
+#slade {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 3rem;
+}
+
+h2 {
+  font-family: "Lato", sans-serif;
+  font-size: 4em; }
+
+h3 {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  margin-left: 15px;
+  position: relative; }
+
+h4 {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  color: gray;
+  font-size: 1.5em; }
+  h4:hover {
+    cursor: pointer;
+    color: black;}
+    h4:hover span {
+      font-size: 0.7em;
+      margin-right: 0.25em; }
+
+.line {
+  width: 1px;
+  height: 75px;
+  border-left: 2px solid;
+  border-right: 2px solid;
+  margin-left: 37.5px;
+  position: relative; }
+
+.name {
+  font-size: 1.05em; }
+
+
+  #footer, #nav1 {
+
+    padding: 1rem;
+    text-align: center;
+    margin: auto;
+  }
+
+
+  ul {
+    margin-top:0;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    color: black;
+  }
+
+
+
+  .nav li a {
+      color: black;
+      text-align: center;
+      text-decoration: none;
+      background-color: white;
+  }
+
+  /* Change the link color to #111 (black) on hover */
+  #nav1 ul li a:hover {
+      color: lightGray;
+  }
+
+.nav li a:hover {
+  color: lightGray;
+}
+
+.links a img {
+  width: 3em;
+  height: 3em;
+}
+
+.links, .nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.links li, .nav li {
+  display: inline;
+}
+
+.links a, .nav a {
+  display: inline-block;
+  padding: 10px;
+}
+
+  .active {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: white;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+  }
+
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    border: 1px solid;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    /*padding: 12px 16px;*/
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {/*border-top: 1px solid; border-bottom: 1px solid;*/}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/*# sourceMappingURL=jslade.css.map */

@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900|Raleway:100,200,300,400,500,600,700,800,900');
+
+
+.section-title, .details, .title, p {
+  margin: 0;
+  padding:0;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  color: black;
+}
+
+ul {
+  margin-top: 0;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  background-color: gainsboro;
+}
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+a:hover {
+  color: silver;
+}
+
+.section-title {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  color: gray;
+  font-size: 2em;
+}
+
+.title {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 1.2em;
+  color: black;
+}
+
+.tag {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-size: 1em;
+  color: black;
+}
+
+.details {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    color: gray;
+}
+
+
+.line {
+  width: 1px;
+  height: 75px;
+  border-left: 2px solid;
+  border-right: 2px solid;
+  margin: auto; }
+
+  .short-line {
+    width: 1px;
+    height: 15px;
+    border-left: 2px solid;
+    border-right: 2px solid;
+    margin: auto; }
+
+  #footer, #nav1 {
+
+    padding: 1rem;
+    text-align: center;
+    margin: auto;
+  }
+
+  #name {
+    border: 2px double;
+    outline: 2px solid;
+    outline-offset: -5px;
+    text-align: center;
+    margin: auto;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+    #juliet {
+      font-family: "Lato", sans-serif;
+      font-weight: 100;
+      font-size: 3rem;
+    }
+
+    #slade {
+      font-family: "Lato", sans-serif;
+      font-weight: 300;
+      font-size: 3rem;
+    }
+
+
+
+      .nav li a, .links li a {
+          color: black;
+          text-align: center;
+          text-decoration: none;
+          background-color: white;
+      }
+
+      /* Change the link color to #111 (black) on hover */
+      #nav1 ul li a:hover {
+          color: lightGray;
+      }
+
+    .nav li a:hover {
+      color: lightGray;
+    }
+
+    .links a img {
+      width: 3em;
+      height: 3em;
+    }
+
+
+
+    .links, .nav {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    .links li, .nav li {
+      display: inline;
+    }
+
+    .links a, .nav a {
+      display: inline-block;
+      padding: 10px;
+    }
+
+
+
+
+.active {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: white;
+  border-bottom: 1px solid;
+  border-top: 1px solid;
+}
+
+
+
+#skills, #education, #coursework, #experience, #research, #download, #tech-description {
+  padding-left: 5em;
+  padding-right: 5em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border: 1px solid black;
+  text-align: left;
+  width: 50%;
+  margin: auto;
+  min-width: 15em; /*look at*/
+  max-width: 40em; /*look at*/
+
+}
+
+#description {
+  padding-left: 6%; /*change these to % at a certain point*/
+  padding-right: 6%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border: 1px solid black;
+  text-align: left;
+  width: 80%;
+  display: block;
+  margin: auto;
+  max-width: 60em;
+
+}
+
+/*#gif {
+  overflow: hidden;
+  border: 1px solid black;
+  width: 75%;
+  margin: auto;
+}*/
+
+
+#pic {
+  overflow: hidden;
+  border: 1px solid black;
+  width: 40%;
+  margin: auto;
+}
+
+#gif img {
+  width: 100%;
+}
+
+#combined {
+  border: 1px solid black;
+  width: 90%;
+  margin: auto;
+  padding: 2em;
+
+  position: relative;
+}
+
+#combined-gallery {
+  border: 1px solid black;
+  width: 90%;
+  margin: auto;
+  padding: 2em;
+  overflow: hidden;
+}
+
+#descriptin {
+  width:60%;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 1%;
+  padding-right: 1em;
+  height: 100%;
+}
+
+#descriptoon {
+  width:40%;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 1%;
+
+}
+
+#gif {
+  overflow: hidden;
+  border: 1px solid black;
+  width: 35%;
+  margin: auto;
+  display: inline-block;
+}
+
+#center-gif {
+  overflow: hidden;
+  border: 1px solid black;
+  width: 70%;
+  margin: auto;
+  display: block;
+
+}
+
+#gif-gallery {
+  width: 58%;
+  display: inline-block;
+  border: 1px solid;
+}
+
+.slide-container {
+  width: 58%;
+
+  border: 1px solid;
+  position: relative;
+  display: inline-block;
+
+
+  margin-top: 5%;
+}
+
+.logo-img {
+  width: 50%;
+  float: right;
+  display: inline-block;
+  margin-right: -2em;
+}
+
+.utube-slide-container {
+  clear: both;
+  width: 50%;
+  width: 560px;
+  height: 315px;
+  float: right;
+  padding-top: 2%;
+
+  position: relative;
+  display: inline-block;
+
+
+
+}
+
+.gif-slide-container {
+  width: 35%;
+
+
+
+  border: 1px solid;
+  position: relative;
+  display: inline-block;
+}
+
+.mySlides, .mySlides2, .mySlides3 {
+  display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  width: auto;
+  position: absolute;
+  top: 50%;
+  padding: 16px;
+  color: white;
+  margin-top: 22px;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.slide-text {
+  color: #f2f2f2;
+  background-color: rgba(0,0,0, 0.9);
+  font-size: 15px;
+  margin: auto;
+  width: 100%;
+  text-align: center;
+}
+
+
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  border: 1px solid;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.display-gif {
+  float: right;
+  display: inline-block;
+  border: 1px solid;
+}
+
+.dropdown-content a {
+  color: black;
+  /*padding: 12px 16px;*/
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {/*border-top: 1px solid; border-bottom: 1px solid;*/}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.utube {
+  width: 560px;
+  height: 315px;
+}

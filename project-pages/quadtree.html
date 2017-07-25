@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Quad Trees</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/resume.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/resume-alt.css">
+
+  </head>
+  <body>
+    <div id="nav1">
+      <ul class="nav">
+        <li>
+          <div class="dropdown">
+            <a class="active" href="../main-pages/projects.html">PROJECTS</a>
+            <div class="dropdown-content">
+              <a href="./jshelp.html">js-help</a>
+              <a href="./LilGuy.html">lil guy</a>
+              <a href="./vjam.html">vectorJAM</a>
+              <a class="active" href="./quadtree.html">quad trees</a>
+              <a href="./ceilings.html">inverse realities</a>
+              <a href="./three-d.html">3D modeling</a>
+              <a href="./vpl.html">VPL</a>
+              <a href="./boxes.html">juliet's boxes</a>
+              <a href="./mll.html">physical computing</a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="dropdown">
+            <a href="../main-pages/fun.html">FOR FUN</a>
+            <div class="dropdown-content">
+              <a href="./this-site.html">juliet website</a>
+              <a href="./minesweeper.html">minesweeper</a>
+            </div>
+          </div>
+        </li>
+        <li><a href="../main-pages/resume.html">RESUME</a></li>
+        <li><a href="../index.html">BIO</a></li>
+      </ul>
+    </div>
+    <div id="name">
+      <span><span id="juliet">quad</span> <span id="slade">trees</span></span>
+    </div>
+    <div class="line"></div>
+    <div id="combined">
+    <div id="descriptin">
+      <p><span class="section-title">QUAD TREES</span></p>
+      <p><span class="title">SARAH LAWRENCE COLLEGE</span> | <span class="tag">DATABASES AND SERVER-SIDE PROGRAMMING</span>
+      <p><span class="details">Fall 2016</span></p>
+      <p>Conference project for Databases/Server-Side Programming. After looking into graph
+      databases and neo4j, I researched quad trees. Quad trees are a data structure for
+      storing and querying spatial data. Each node is either a leaf or has exactly four
+      children which are the four quadrants the space is split into.
+      <br>
+      <br>
+      Points represent data, and each node has a set limit of points that can be contained
+      in it. If an added point exceeds the limit, the node splits into four quadrants.
+      <br>
+      <br>
+      A large advantage of quad trees is seen in the neighbor-finding algorithm. The first
+      is "Fast Neighbor" which recurses only into the nodes that could have a neighbor to
+      the given point. The second, "Slow Neighbor" is the non-quad tree version of doing
+      this. It examines every point, keeping track of the current closest point.
+      <br>
+      <br>
+      In the visualizer, I have the neighbor algorithm run 200 times behind the scene to
+      calculate the average time it takes to complete. Then, it runs once more to visualize.
+      The fast algorithm shades the nodes that are checked and marks the options for closest
+      point in orange. The average speed is 0.00009 seconds, and it is clear that only a small
+      portion of the space is traversed. The slow algorithm checks all of the points, marking
+      them in purple, and marks those that were "closest" at one point in orange. The average
+      time is 0.065 seconds and it takes a noticeably long time to get through the 200.</p>
+      </p>
+    </div>
+    <div id="hidden-line"></div>
+    <div id="gif">
+      <img src="../project-gifs/qtd.gif" />
+    </div>
+  </div>
+    <div class="line"></div>
+    <div id="tech-description">
+      <p><span class="section-title">TOOLS</span></p>
+      <p>Python • Zelle Graphics Library</p>
+    </div>
+    <div id="foot">
+      <ul class="links">
+        <li><a href="https://www.linkedin.com/in/juliet-slade"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlTUiiVnesNhawYmmJiYfLTbon_q0xP9fmx0pI4mlzARSIKuDU1XeR6pM" /></a></li>
+        <li><a href="https://www.github.com/juliet36"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi8dTfWipcXMRJRefOOXABYa7x9HBTOfABCqBtHpEmqq801b8v" /></a></li>
+        <li><a href="https://itsmejuliet.wordpress.com"><img src="https://multimedia.getresponse.com/5/38424005/photos/569510805.png?_ga=1.151514623.734679770.1488631828" /></a></li>
+      </ul>
+    </div>
+</html>

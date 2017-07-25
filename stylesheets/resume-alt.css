@@ -1,0 +1,137 @@
+@media (max-width: 966px) and (min-width: 833px) {
+  .gif-slide-container {
+    margin-top: 2em;
+    width: 35%;
+
+
+
+    border: 1px solid;
+    position: relative;
+    display: inline-block;
+  }
+}
+
+
+
+#hidden-line, #hidden-line-gallery {
+  display: none;
+}
+
+@media (max-width: 1078px) {
+  #combined-gallery {
+    width: 100%;
+    padding: 0;
+    border: none;
+
+  }
+  .utube-slide-container {
+    display: block;
+    margin: auto;
+    float: none;
+    padding: 0;
+    border: 1px solid;
+  }
+
+
+
+  #hidden-line-gallery {
+    display: block;
+    width: 1px;
+    height: 15px;
+    border-left: 2px solid;
+    border-right: 2px solid;
+    margin: auto;
+  }
+
+  #gif-gallery {
+    width: 80%;
+    display: block;
+    margin: auto;
+    border: 1px solid;
+
+  }
+  .display-gif {
+
+    display: block;
+    float: none;
+    margin: auto;
+
+  }
+
+  #descriptoon {
+    width:90%;
+    margin: auto;
+    padding: 1em;
+    border: 1px solid;
+    display: block;
+  }
+  .slide-container {
+    width: 80%;
+    display: block;
+    margin: auto;
+    border: 1px solid;
+    position: relative;
+  }
+  #gif {
+    margin-top: 5%;
+  }
+}
+
+
+@media (max-width: 833px) {
+  #combined {
+    width: 100%;
+
+    padding: 0;
+
+    border: none;
+
+  }
+  #hidden-line {
+    display: block;
+    width: 1px;
+    height: 15px;
+    border-left: 2px solid;
+    border-right: 2px solid;
+    margin: auto;
+  }
+
+  #descriptin {
+    width:90%;
+    margin: auto;
+    padding: 1em;
+    border: 1px solid;
+    display: block;
+  }
+  .gif-slide-container {
+    width: 50%;
+    display: block;
+    margin: auto;
+    border: 1px solid;
+    position: relative;
+  }
+
+  #skills, #education, #coursework, #experience, #research, #download, #tech-description {
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border: 1px solid black;
+    text-align: left;
+    width: 80%;
+    margin: auto;
+    min-width: 0em;
+
+  }
+
+  #gif {
+    overflow: hidden;
+    border: 1px solid black;
+    width: 60%;
+    margin: auto;
+    display: block;
+    position: relative;
+    top: 50%;
+
+  }
+}

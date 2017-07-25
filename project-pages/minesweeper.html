@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Minesweeper</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/resume.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/resume-alt.css">
+
+  </head>
+  <body>
+    <div id="nav1">
+      <ul class="nav">
+        <li>
+          <div class="dropdown">
+            <a href="../main-pages/projects.html">PROJECTS</a>
+            <div class="dropdown-content">
+              <a href="./jshelp.html">js-help</a>
+              <a href="./LilGuy.html">lil guy</a>
+              <a href="./vjam.html">vectorJAM</a>
+              <a href="./quadtree.html">quad trees</a>
+              <a href="./ceilings.html">inverse realities</a>
+              <a href="./three-d.html">3D modeling</a>
+              <a href="./vpl.html">VPL</a>
+              <a href="./boxes.html">juliet's boxes</a>
+              <a href="./mll.html">physical computing</a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="dropdown">
+            <a class="active" href="../main-pages/fun.html">FOR FUN</a>
+            <div class="dropdown-content">
+              <a href="./this-site.html">juliet website</a>
+              <a class="active" href="./minesweeper.html">minesweeper</a>
+            </div>
+          </div>
+        </li>
+        <li><a href="../main-pages/resume.html">RESUME</a></li>
+        <li><a href="../index.html">BIO</a></li>
+      </ul>
+    </div>
+    <div id="name">
+      <span><span id="juliet">minesweeper</span> <span id="slade"></span></span>
+    </div>
+    <div class="line"></div>
+    <div id="combined-gallery">
+      <div id="descriptoon">
+        <p><span class="section-title">MINESWEEPER</span></p>
+        <p>After playing Minesweeper on the weekly for as long as I can remember, I finally decided
+          to make it. It's in a relatively rough state visually, but the ultimate goal is to
+          translate it to JavaScript to embed it here, or make (my first) app.
+          <br>
+          <br>
+          In the process of making it, I did a lot of Minesweeper related research and learned a
+          few things:
+          <ul>
+            <li>Minesweeper implements a buffer behind the scenes around the 2D matrix in order to
+            create no special cases in checking squares.</li>
+            <li>The cascading algorithm is fairly simple.</li>
+            <li>I wanted to make it a guess-free version (I hate when there's only two squares and
+            I guess wrong) but it may actually be less fun that way?</li>
+            <li>There was a campaign to ban the mine version of the game, that offered a flower
+              edition.</li>
+          </ul>
+
+          <p><a href="https://itsmejuliet.wordpress.com/2017/07/17/Minesweeper">Blog Post</a>.</p>
+        </p>
+      </div>
+      <div id="hidden-line-gallery"></div>
+      <img class="display-gif" src = "../project-gifs/msd-final.gif" />
+    </div>
+    <div class="line"></div>
+    <div id="tech-description">
+      <p><span class="section-title">TOOLS</span></p>
+      <p>Python • Zelle Graphics Library</p>
+    </div>
+</html>
