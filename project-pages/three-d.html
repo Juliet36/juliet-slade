@@ -3,17 +3,18 @@
   <head>
     <title>3D Modeling</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="../stylesheets/resume.css">
-    <link rel="stylesheet" type="text/css" href="../stylesheets/resume-alt.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/main-style.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/styles2.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/project-responsive.css">
 
   </head>
   <body>
-    <div id="nav1">
+    <div id="nav-container">
       <ul class="nav">
         <li>
-          <div class="dropdown">
+          <!-- <div class="dropdown"> -->
             <a class="active" href="../main-pages/projects.html">PROJECTS</a>
-            <div class="dropdown-content">
+            <!-- <div class="dropdown-content">
               <a href="./jshelp.html">js-help</a>
               <a href="./LilGuy.html">lil guy</a>
               <a href="./vjam.html">vectorJAM</a>
@@ -24,38 +25,40 @@
               <a href="./boxes.html">juliet's boxes</a>
               <a href="./mll.html">physical computing</a>
             </div>
-          </div>
+          </div> -->
         </li>
         <li>
-          <div class="dropdown">
+          <!-- <div class="dropdown"> -->
             <a href="../main-pages/fun.html">FOR FUN</a>
-            <div class="dropdown-content">
+            <!-- <div class="dropdown-content">
               <a href="./this-site.html">juliet website</a>
               <a href="./minesweeper.html">minesweeper</a>
             </div>
-          </div>
+          </div> -->
         </li>
         <li><a href="../main-pages/resume.html">RESUME</a></li>
         <li><a href="../index.html">BIO</a></li>
+        <li><a href="../main-pages/contactme.html">CONTACT ME</a></li>
       </ul>
     </div>
-    <div id="name">
-      <span><span id="juliet">3D</span> <span id="slade">modeling</span></span>
+    <div id="page-header">
+      <span><span id="first-word">3D</span> <span id="second-word">modeling</span></span>
     </div>
     <div class="line"></div>
-    <div id="combined-gallery">
-    <div id="descriptoon">
+    <div id="project-details-container-narrow-description">
+    <div id="narrow-description">
       <p><span class="section-title">3D MODELING MISCELLANEOUS PROJECTS</span></p>
-      <p><span class="title">SARAH LAWRENCE COLLEGE</span> | <span class="tag">3D MODELING</span></p>
-      <p><span class="details">Fall 2016</span></p>
-      <p>I took a class in 3D modeling in Blender. I had a lot of fun modeling objects around me
-        and looking at the everything with the lens of "how would I model that" for a bit. For more
-        details on these projects, see my <a href="https://itsmejuliet.wordpress.com/category/3d-modeling/">
+      <p><span class="section-details-1">SARAH LAWRENCE COLLEGE</span> | <span class="section-details-2">3D MODELING</span></p>
+      <p><span class="section-details-3">Fall 2016</span></p>
+      <p>I took a class in 3D modeling in Blender, during which time I had a lot of fun modeling objects
+        around me and looking at everything with the lens of "how would I model that." For more renders of
+        these projects and details about the related assignments, e.g. those on boolean operators and
+        cornell boxes, see my <a href="https://itsmejuliet.wordpress.com/category/3d-modeling/">
         blog posts</a>.
       </p>
     </div>
     <div id="hidden-line-gallery"></div>
-    <div class="slide-container">
+    <div class="landscape-slide-container">
       <div class="mySlides fade">
         <img style = "width: 100%;" src="../project-images/stuff_closeup.png" />
         <div class="slide-text">stuff next to my bed</div>
@@ -116,13 +119,12 @@
         <div class="slide-text">my first render (lol)</div>
       </div>
 
-      <a class="prev" onclick="plusSlides(-1, 'mySlides')">&#10094;</a>
-      <a class="next" onclick="plusSlides(1, 'mySlides')">&#10095;</a>
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
     </div>
   </div>
     <script src='../project-scripts/slides.js'></script>
-    <script>showSlides(1, 'mySlides');</script>
     <div class="line"></div>
     <div id="tech-description">
       <p><span class="section-title">TOOLS</span></p>

@@ -1,38 +1,27 @@
 @media (max-width: 966px) and (min-width: 833px) {
-  .gif-slide-container {
+  /*.portrait-slide-container {
     margin-top: 2em;
     width: 35%;
-
-
-
     border: 1px solid;
     position: relative;
     display: inline-block;
-  }
-}
-
-
-
-#hidden-line, #hidden-line-gallery {
-  display: none;
+  }*/
 }
 
 @media (max-width: 1078px) {
-  #combined-gallery {
+  #project-details-container-narrow-description {
     width: 100%;
     padding: 0;
     border: none;
-
   }
-  .utube-slide-container {
+
+  .video-slide-container {
     display: block;
     margin: auto;
     float: none;
     padding: 0;
     border: 1px solid;
   }
-
-
 
   #hidden-line-gallery {
     display: block;
@@ -43,50 +32,36 @@
     margin: auto;
   }
 
-  #gif-gallery {
+  #gif-container {
     width: 80%;
     display: block;
     margin: auto;
     border: 1px solid;
-
   }
-  .display-gif {
 
+  .example-gif {
     display: block;
     float: none;
     margin: auto;
-
   }
 
-  #descriptoon {
+  #narrow-description {
     width:90%;
     margin: auto;
     padding: 1em;
     border: 1px solid;
     display: block;
   }
-  .slide-container {
+
+  .landscape-slide-container {
     width: 80%;
     display: block;
     margin: auto;
     border: 1px solid;
     position: relative;
+    float: none;
   }
-  #gif {
-    margin-top: 5%;
-  }
-}
 
-
-@media (max-width: 833px) {
-  #combined {
-    width: 100%;
-
-    padding: 0;
-
-    border: none;
-
-  }
   #hidden-line {
     display: block;
     width: 1px;
@@ -96,22 +71,45 @@
     margin: auto;
   }
 
-  #descriptin {
+  .portrait-slide-container {
+    width: 50%;
+    display: block;
+    margin: auto;
+    border: 1px solid;
+    position: relative;
+    float: none;
+  }
+
+  #gif {
+    margin-top: 5%;
+  }
+  #project-details-container-wide-description {
+    width: 100%;
+    padding: 0;
+    border: none;
+  }
+  #wide-description {
     width:90%;
     margin: auto;
     padding: 1em;
     border: 1px solid;
     display: block;
   }
-  .gif-slide-container {
-    width: 50%;
-    display: block;
+  #gif {
+    overflow: hidden;
+    border: 1px solid black;
+    width: 60%;
     margin: auto;
-    border: 1px solid;
+    display: block;
     position: relative;
-  }
+    top: 50%;
 
-  #skills, #education, #coursework, #experience, #research, #download, #tech-description {
+  }
+}
+
+
+@media (max-width: 833px) {
+  .resume-section, #tech-description {
     padding-left: 1em;
     padding-right: 1em;
     padding-top: 1em;
@@ -124,14 +122,4 @@
 
   }
 
-  #gif {
-    overflow: hidden;
-    border: 1px solid black;
-    width: 60%;
-    margin: auto;
-    display: block;
-    position: relative;
-    top: 50%;
-
-  }
 }

@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900|Raleway:100,200,300,400,500,600,700,800,900');
+
+/* Headers, Fonts, General Body Stuff */
+
+#page-header {
+  border: 2px double;
+  outline: 2px solid;
+  outline-offset: -5px;
+  text-align: center;
+  margin: auto;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+#first-word {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-size: 3rem;
+}
+
+#second-word {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 3rem;
+}
+
+h3 {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  margin-left: 15px;
+  position: relative; }
+
+.project-name {
+  font-size: 1.05em; }
+
+.section-title {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  color: gray;
+  font-size: 32px;
+  margin: 0;
+  padding: 0;
+}
+
+.section-details-1 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 19.2px;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+
+.section-details-2 { /*formerly .tag*/
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-size: 1em;
+  color: black;
+}
+
+.section-details-3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    color: gray;
+    margin: 0;
+    padding: 0;
+    font-size: 17px;
+}
+
+ul {
+  margin-top: 0;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  color: black;
+}
+
+
+/* Footer and Navigation */
+#nav-container {
+  padding: 1rem;
+  text-align: center;
+  margin: auto;
+}
+
+.links, .nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.links li, .nav li {
+  display: inline;
+}
+
+.links a, .nav a {
+  display: inline-block;
+  padding: 10px;
+}
+
+.nav li a, .links li a {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    background-color: white;
+}
+
+#nav-container ul li a:hover {
+    color: lightGray;
+}
+
+.links a img {
+  width: 3em;
+  height: 3em;
+}
+
+.active {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: white;
+  border-bottom: 1px solid;
+  border-top: 1px solid;
+}
+
+/* Dropdown */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    border: 1px solid;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {/*border-top: 1px solid; border-bottom: 1px solid;*/}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}

@@ -3,17 +3,18 @@
   <head>
     <title>VPL</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="../stylesheets/resume.css">
-    <link rel="stylesheet" type="text/css" href="../stylesheets/resume-alt.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/main-style.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/styles2.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/project-responsive.css">
 
   </head>
   <body>
-    <div id="nav1">
+    <div id="nav-container">
       <ul class="nav">
         <li>
-          <div class="dropdown">
+          <!-- <div class="dropdown"> -->
             <a class="active" href="../main-pages/projects.html">PROJECTS</a>
-            <div class="dropdown-content">
+            <!-- <div class="dropdown-content">
               <a href="./jshelp.html">js-help</a>
               <a href="./LilGuy.html">lil guy</a>
               <a href="./vjam.html">vectorJAM</a>
@@ -24,46 +25,47 @@
               <a href="./boxes.html">juliet's boxes</a>
               <a href="./mll.html">physical computing</a>
             </div>
-          </div>
+          </div> -->
         </li>
         <li>
-          <div class="dropdown">
+          <!-- <div class="dropdown"> -->
             <a href="../main-pages/fun.html">FOR FUN</a>
-            <div class="dropdown-content">
+            <!-- <div class="dropdown-content">
               <a href="./this-site.html">juliet website</a>
               <a href="./minesweeper.html">minesweeper</a>
             </div>
-          </div>
+          </div> -->
         </li>
         <li><a href="../main-pages/resume.html">RESUME</a></li>
         <li><a href="../index.html">BIO</a></li>
+        <li><a href="../main-pages/contactme.html">CONTACT ME</a></li>
       </ul>
     </div>
-    <div id="name">
-      <span><span id="juliet">VPL</span> <span id="slade"></span></span>
+    <div id="page-header">
+      <span><span id="first-word">VPL</span> <span id="second-word"></span></span>
     </div>
     <div class="line"></div>
-    <div id="combined">
-    <div id="descriptin">
+    <div id="project-details-container-wide-description">
+    <div id="wide-description">
       <p><span class="section-title">VPL</span></p>
-      <p><span class="title">SARAH LAWRENCE COLLEGE</span> | <span class="tag">SUMMER RESEARCH PROGRAM</span>
-      <p><span class="details">Summer 2016</span></p>
-      <p>Worked with professor Michael Siff and another student to create VPL (otherwise known as JAM for
-        Juliet, Avinoam, Mike), a visual programming language. Our goal was to explore programming on a
-        touch screen device which involved minimizing the need to type. My specific role was to implement
-        the back-end evaluator which traversed the node-based AST we created for this language.
+      <p><span class="section-details-1">SARAH LAWRENCE COLLEGE</span> | <span class="section-details-2">SUMMER RESEARCH PROGRAM</span>
+      <p><span class="section-details-3">Summer 2016</span></p>
+      <p>Summer 2016 I worked with SLC Computer Science professor Michael Siff and another student to create VPL
+        (otherwise known as JAM for Juliet, Avinoam, Mike), a visual programming language. Our goal was to explore
+        programming on a touch screen device which involved minimizing the need to type. My specific role was
+        to implement the back-end evaluator which traversed the node-based AST we created for this language.
         <br>
         <br>
-        The language is functional and based off of scheme/lisp. It also attempts to filter the options
-        available in the options pane at the bottom based on the type of data that could be used where the
-        user has selected (eg. If the function returns a number, the return value must be a number as well
-        so it only gives access to numbers, identifiers that represent numbers, and other functions that
-        return numbers).
+        The language is functional and based off of Scheme/Lisp. It also attempts to filter the options
+        available in the options pane at the bottom based on the type of data that could be used in the place
+        that the user has selected. E.g. if the function returns a number, the return value must always be a
+        number so the panel only gives access to numbers, identifiers that represent numbers, and other
+        functions that return numbers.
         <br>
         <br>
-        Towards the end of the summer it was implemented in CPS-style in orer to be able to pause the
-        execution, and it was trampolined to deal with a stack-overflow problem. At the end of the summer
-        I was working on making it a compiled evaluation.
+        The evaluator was ultimately implemented in CPS-style in order to be able to pause the execution, and
+        it was  trampolined to deal with a stack-overflow problem. At the end of the summer I was working on
+        making it a compiled evaluation.
         <br>
         <br>
         <a href="https://github.com/avinoamhenig/vpl">GitHub Repository</a>
@@ -72,31 +74,28 @@
 
     <div id="hidden-line"></div>
 
-    <div class="gif-slide-container">
+    <div class="portrait-slide-container">
       <div class="mySlides fade">
-        <img style = "width: 100%" loop=infinite src="../project-images/vpl-demo-sum.png" />
+        <img  style = "width: 100%;" src="../project-images/vpl-demo-sum.png" />
         <div class="slide-text">coding a sum function in VPL</div>
       </div>
 
       <div class="mySlides fade">
-        <img style = "width: 100%" src="../project-images/vpl-demo-expand.png" />
+        <img style = "width: 100%;" src="../project-images/vpl-demo-expand.png" />
         <div class="slide-text">expanding in VPL</div>
       </div>
 
       <div class="mySlides fade">
-        <img style = "width: 100%" src="../project-images/vpl-demo-run.png" />
+        <img style = "width: 100%;" src="../project-images/vpl-demo-run.png" />
         <div class="slide-text">running a function in VPL</div>
       </div>
 
-      <a class="prev" onclick="plusSlides(-1, 'mySlides')">&#10094;</a>
-      <a class="next" onclick="plusSlides(1, 'mySlides')">&#10095;</a>
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
     </div>
   </div>
     <script src='../project-scripts/slides.js'></script>
-    <script>
-    showSlides(slideIndex, 'mySlides');
-    </script>
     <div class="line"></div>
     <div id="tech-description">
       <p><span class="section-title">TOOLS</span></p>

@@ -2,16 +2,18 @@
 <html>
   <head>
     <title>Resume</title>
-    <link type="text/css" rel="stylesheet" href="../stylesheets/resume.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/main-style.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/styles2.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/project-responsive.css">
     <meta charset="utf-8">
   </head>
   <body>
-    <div id="nav1">
+    <div id="nav-container">
       <ul class="nav">
         <li>
-          <div class="dropdown">
+          <!-- <div class="dropdown"> -->
           <a href="./projects.html">PROJECTS</a>
-          <div class="dropdown-content">
+          <!-- <div class="dropdown-content">
             <a href="../project-pages/jshelp.html">js-help</a>
             <a href="../project-pages/LilGuy.html">lil guy</a>
             <a href="../project-pages/vjam.html">vectorJAM</a>
@@ -22,30 +24,31 @@
             <a href="../project-pages/boxes.html">juliet's boxes</a>
             <a href="../project-pages/mll.html">physical computing</a>
           </div>
-        </div>
+        </div> -->
       </li>
         <li>
-          <div class="dropdown">
+          <!-- <div class="dropdown"> -->
             <a href="./fun.html">FOR FUN</a>
-            <div class="dropdown-content">
+            <!-- <div class="dropdown-content">
               <a href="../project-pages/this-site.html">juliet website</a>
               <a href="../project-pages/minesweeper.html">minesweeper</a>
             </div>
-          </div>
+          </div> -->
         </li>
         <li><a class="active" href="./resume.html">RESUME</a></li>
         <li><a href="../index.html">BIO</a></li>
+        <li><a href="./contactme.html">CONTACT ME</a></li>
       </ul>
     </div>
 
 
-    <div id="name">
-      <span><span id="juliet">resume</span> <span id="slade"></span></span>
+    <div id="page-header">
+      <span><span id="first-word">resume</span> <span id="second-word"></span></span>
     </div>
 
     <div class="line"></div>
 
-    <div id="download">
+    <div class="resume-section">
       <p><span class="section-title">DOWNLOAD</span></p>
       <p><a href="../media/julietslade-resume.pdf" download="julietslade-resume">pdf version</a></p>
 
@@ -53,18 +56,18 @@
 
     <div class="line"></div>
 
-    <div id="education">
+    <div class="resume-section">
       <p><span class="section-title">EDUCATION</span></p>
-      <span class="title">SARAH LAWRENCE COLLEGE</span>
-      <p class="tag">BA WITH COMPUTER SCIENCE CONCENTRATION</p>
-      <p><span class="details">May 2017 | Bronxville, NY</span></p>
+      <span class="section-details-1">SARAH LAWRENCE COLLEGE</span>
+      <p class="section-details-2">BA WITH COMPUTER SCIENCE CONCENTRATION</p>
+      <p><span class="section-details-3">May 2017 | Bronxville, NY</span></p>
     </div>
 
     <div class="line"></div>
 
-    <div id="coursework">
+    <div class="resume-section">
       <span class="section-title">COURSEWORK</span>
-      <p><span class="title">TECH-RELATED</span></p>
+      <p><span class="section-details-1">TECH-RELATED</span></p>
       <p>Independent Study in Web Tools for Learning to Program</p>
       <p>Databases and Server-Side Programming</p>
       <p>Quantum Computing</p>
@@ -80,25 +83,23 @@
 
     <div class="line"></div>
 
-    <div id="skills">
+    <div class="resume-section">
       <p><span class="section-title">SKILLS</span></p>
-        <span class="details">Most Comfortable/Fluent</span>
+        <span class="section-details-3">Most Comfortable/Fluent</span>
             <p>JavaScript • Python</p>
-          <span class="details">Familiar with</span>
-            <p>HTML/CSS • Java • C • PHP • MySQL • Sass • Scala • Neo4j</p>
-          <span class="details">Knew at one point</span>
-            <p>Scheme • MIPS Assembly</p>
-          <span class="details">Other</span>
+          <span class="section-details-3">Familiar with</span>
+            <p>HTML/CSS • Java • C • PHP • MySQL • Sass • Scala • Neo4j • Scheme</p>
+          <span class="section-details-3">Other</span>
             <p>Blender • Microsoft Suite</p>
 
     </div>
 
     <div class="line"></div>
 
-    <div id="experience">
+    <div class="resume-section">
       <span class="section-title">EXPERIENCE</span>
-      <p><span class="title">WESTCHESTER END OF LIFE COALITION</span> | <span class="tag">PROJECT ASSISTANT</span>
-      <p><span class="details">Nov 2015 - Present | Bronxville, NY</span></p>
+      <p><span class="section-details-1">WESTCHESTER END OF LIFE COALITION</span> | <span class="section-details-2">PROJECT ASSISTANT</span>
+      <p><span class="section-details-3">Nov 2015 - Present | Bronxville, NY</span></p>
         <ul>
           <li>Contracted employee providing technology assistance for a growing nonprofit
             agency.</li>
@@ -107,8 +108,8 @@
         </ul>
       </p>
 
-      <p><span class="title">SARAH LAWRENCE COLLEGE</span> | <span class="tag">LAB ASSISTANT AND TUTOR</span>
-      <p><span class="details">Sep 2014 - May 2017 | Bronxville, NY</span></p>
+      <p><span class="section-details-1">SARAH LAWRENCE COLLEGE</span> | <span class="section-details-2">LAB ASSISTANT AND TUTOR</span>
+      <p><span class="section-details-3">Sep 2014 - May 2017 | Bronxville, NY</span></p>
         <ul>
           <li>Work study position as assistant to professors for: Intro. to Computer
             Programming (Python), Intro. to Web Programming (JavaScript, HTML/CSS),
@@ -118,35 +119,40 @@
         </ul>
       </p>
 
-      <p><span class="title">SARAH LAWRENCE COLLEGE</span> | <span class="tag">DONOR RELATIONS ASSISTANT</span>
-      <p><span class="details">Sep 2014 - May 2017 | Bronxville, NY</span></p>
+      <p><span class="section-details-1">SARAH LAWRENCE COLLEGE</span> | <span class="section-details-2">DONOR RELATIONS ASSISTANT</span>
+      <p><span class="section-details-3">Sep 2014 - May 2017 | Bronxville, NY</span></p>
         <ul>
           <li>Responsible for data entry (Raiser’s Edge), general filing and mailings, and
             events.</li>
         </ul>
       </p>
 
-      <p><span class="title">MARSHALL FIELD MONITOR</span> | <span class="tag">SARAH LAWRENCE COLLEGE</span>
-      <p><span class="details">Sep 2013 - May 2016 | Bronxville, NY</span></p>
-      <br>
-      <p><span class="title">DELIVERY DRIVER</span> | <span class="tag">TOPPER'S PIZZA</span>
-      <p><span class="details">May 2015 - Jan 2016 | Saint Paul, MN</span></p>
+      <p><span class="section-details-1">MARSHALL FIELD MONITOR</span> | <span class="section-details-2">SARAH LAWRENCE COLLEGE</span>
+      <p><span class="section-details-3">Sep 2013 - May 2016 | Bronxville, NY</span></p>
       </p>
       <br>
-      <p><span class="title">RIDE OPERATOR</span> | <span class="tag">VALLEYFAIR</span>
-      <p><span class="details">May 2014 - August 2014 | Shakopee, MN</span></p>
+      <p><span class="section-details-1">DELIVERY DRIVER</span> | <span class="section-details-2">TOPPER'S PIZZA</span>
+      <p><span class="section-details-3">May 2015 - Jan 2016 | Saint Paul, MN</span></p>
+      </p>
+      <br>
+      <p><span class="section-details-1">HOSTESS</span> | <span class="section-details-2">DIXIES</span>
+      <p><span class="section-details-3">May 2015 - August 2015 | Saint Paul, MN</span></p>
+      </p>
+      <br>
+      <p><span class="section-details-1">RIDE OPERATOR</span> | <span class="section-details-2">VALLEYFAIR</span>
+      <p><span class="section-details-3">May 2014 - August 2014 | Shakopee, MN</span></p>
       </p>
 
-      </p>
+
 
     </div>
 
     <div class="line"></div>
 
-    <div id="research">
+    <div class="resume-section">
       <span class="section-title">RESEARCH</span>
-      <p><span class="title">SARAH LAWRENCE COLLEGE SUMMER RESEARCH PROGRAM</span> | <span class="tag">COMPUTER SCIENCE RESEARCH ASSISTANT</span>
-      <p><span class="details">May 2017 - July 2017 | Bronxville, NY</span></p>
+      <p><span class="section-details-1">SARAH LAWRENCE COLLEGE SUMMER RESEARCH PROGRAM</span> | <span class="section-details-2">COMPUTER SCIENCE RESEARCH ASSISTANT</span>
+      <p><span class="section-details-3">May 2017 - July 2017 | Bronxville, NY</span></p>
       <p>Worked with professor Michael Siff and another student to create <a href="https://github.com/avinoamhenig/vpl">VPL</a>
         (otherwise known as JAM for Juliet, Avinoam, Mike), a visual programming language. Our goal was to explore
         programming on a touch screen device which involved minimizing the need to type.

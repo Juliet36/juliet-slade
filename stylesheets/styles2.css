@@ -1,0 +1,246 @@
+/* project-pages, forfun-pages, index.html, resume.html */
+
+/* Body */
+p {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  color: black;
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  background-color: gainsboro;
+}
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+a:hover {
+  color: silver;
+}
+
+/* Dividing Lines */
+/*consolidate lines*/
+.line {
+  width: 1px;
+  height: 75px;
+  border-left: 2px solid;
+  border-right: 2px solid;
+  margin: auto; }
+
+.short-line {
+  width: 1px;
+  height: 15px;
+  border-left: 2px solid;
+  border-right: 2px solid;
+  margin: auto; }
+
+#hidden-line, #hidden-line-gallery {
+  display: none;
+}
+
+/* id divs */
+.resume-section, #tech-description {
+  padding-left: 5em;
+  padding-right: 5em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border: 1px solid black;
+  text-align: left;
+  width: 50%;
+  margin: auto;
+  min-width: 15em; /*look at*/
+  max-width: 40em; /*look at*/
+}
+
+/* Project Details Containers */
+/*quadtree.html, vpl.html*/
+#project-details-container-wide-description {
+  border: 1px solid black;
+  width: 90%;
+  margin: auto;
+  padding: 2em;
+  overflow: hidden;
+}
+
+/*boxes.html, ceilings.html, minesweeper.html, mll.html, three-d.html, vjam.html,*/
+#project-details-container-narrow-description {
+  border: 1px solid black;
+  width: 90%;
+  margin: auto;
+  padding: 2em;
+  overflow: hidden;
+}
+
+/*Descriptions */
+/*jshelp.html, LilGuy.html, this-site.html, index.html*/
+#description {
+  padding-left: 6%;
+  padding-right: 6%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border: 1px solid black;
+  text-align: left;
+  width: 80%;
+  display: block;
+  margin: auto;
+  max-width: 60em;
+}
+#wide-description, #narrow-description {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 1%;
+}
+
+/* quadtree.html, vpl.html*/
+#wide-description {
+  width:60%;
+  padding-right: 1em;
+}
+
+/*boxes.html, ceilings.html, minesweeper.html, mll.html, three-d.html, vjam.html*/
+#narrow-description {
+  width:40%;
+}
+
+/* Slide Containers */
+.landscape-slide-container, .video-slide-container, .portrait-slide-container {
+  position: relative;
+  display: inline-block;
+  clear: both;
+  float: right;
+}
+
+/*ceilings.html, three-d.html*/
+.landscape-slide-container {
+  width: 58%;
+  border: 1px solid;
+}
+
+/*boxes.html, mll.html*/
+.video-slide-container {
+  width: 50%;
+  width: 560px;
+  height: 315px;
+  padding-top: 2%;
+}
+
+/*vpl.html*/
+.portrait-slide-container {
+  border: 1px solid;
+  width: 300px;
+}
+
+.mySlides {
+  display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  width: auto;
+  position: absolute;
+  top: 50%;
+  padding: 16px;
+  color: white;
+  margin-top: 22px;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.slide-text {
+  color: #f2f2f2;
+  background-color: rgba(0,0,0, 0.9);
+  font-size: 15px;
+  margin: auto;
+  width: 100%;
+  text-align: center;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* Media */
+#pic {
+  overflow: hidden;
+  border: 1px solid black;
+  width: 40%;
+  margin: auto;
+}
+
+#gif img {
+  width: 100%;
+}
+
+#gif {
+  overflow: hidden;
+  border: 1px solid black;
+  width: 35%;
+  margin: auto;
+  display: inline-block;
+}
+
+#center-gif {
+  overflow: hidden;
+  border: 1px solid black;
+  width: 70%;
+  margin: auto;
+  display: block;
+}
+
+.utube {
+  width: 560px;
+  height: 315px;
+}
+
+.logo-img {
+  width: 50%;
+  float: right;
+  display: inline-block;
+  margin-right: -2em;
+}
+
+/* vjam.html, jshelp.html */
+#gif-container {
+  width: 58%;
+  display: inline-block;
+  border: 1px solid;
+}
+
+/* minesweeper.html */
+.example-gif {
+  float: right;
+  display: inline-block;
+  border: 1px solid;
+}

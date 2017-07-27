@@ -3,17 +3,18 @@
   <head>
     <title>3D Modeling</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="../stylesheets/resume.css">
-    <link rel="stylesheet" type="text/css" href="../stylesheets/resume-alt.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/main-style.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/styles2.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/project-responsive.css">
 
   </head>
   <body>
-    <div id="nav1">
+    <div id="nav-container">
       <ul class="nav">
         <li>
-          <div class="dropdown">
+          <!-- <div class="dropdown"> -->
             <a class="active" href="../main-pages/projects.html">PROJECTS</a>
-            <div class="dropdown-content">
+            <!-- <div class="dropdown-content">
               <a href="./jshelp.html">js-help</a>
               <a href="./LilGuy.html">lil guy</a>
               <a href="./vjam.html">vectorJAM</a>
@@ -24,46 +25,47 @@
               <a href="./boxes.html">juliet's boxes</a>
               <a class="active" href="./mll.html">physical computing</a>
             </div>
-          </div>
+          </div> -->
         </li>
         <li>
-          <div class="dropdown">
+          <!-- <div class="dropdown"> -->
             <a href="../main-pages/fun.html">FOR FUN</a>
-            <div class="dropdown-content">
+            <!-- <div class="dropdown-content">
               <a href="./this-site.html">juliet website</a>
               <a href="./minesweeper.html">minesweeper</a>
             </div>
-          </div>
+          </div> -->
         </li>
         <li><a href="../main-pages/resume.html">RESUME</a></li>
         <li><a href="../index.html">BIO</a></li>
+        <li><a href="../main-pages/contactme.html">CONTACT ME</a></li>
       </ul>
     </div>
-    <div id="name">
-      <span><span id="juliet">motors, lights,</span> <span id="slade">&amp; logic</span></span>
+    <div id="page-header">
+      <span><span id="first-word">motors, lights,</span> <span id="second-word">&amp; logic</span></span>
     </div>
     <div class="line"></div>
-    <div id="combined-gallery">
-    <div id="descriptoon">
+    <div id="project-details-container-narrow-description">
+    <div id="narrow-description">
       <p><span class="section-title">PHYSICAL COMPUTING MISCELLANEOUS PROJECTS</span></p>
-      <p><span class="title">SARAH LAWRENCE COLLEGE</span> | <span class="tag">MOTORS, LIGHTS, &amp; LOGIC</span></p>
-      <p><span class="details">Spring 2016</span></p>
-      <p>Motors, Lights, &amp; Logic. A physics class taught through physical computing with Arduino. My first experience
-        applying my computer science interests and skills to something physical. It was immensely fun to create "real world"
-        computer programs with sensor input rather than key presses, and physical outcomes to these. It allowed me to
-        be creative with what I built, needing to make a physical structure to hold the arduino and act out what
-        I intended.
+      <p><span class="section-details-1">SARAH LAWRENCE COLLEGE</span> | <span class="section-details-2">MOTORS, LIGHTS, &amp; LOGIC</span></p>
+      <p><span class="section-details-3">Spring 2016</span></p>
+      <p>I took a class called "Motors, Lights, &amp; Logic" which was a physics class taught through physical computing with
+        Arduino. This was my first experience applying my computer science interests and skills to something physical. It was
+        immensely fun to create "real world" computer programs with sensor input rather than key presses, and physical
+        outcomes to these. It allowed me to be creative with what I built, needing to make a physical structure to hold the
+        Arduino and act out what I intended.
         <br>
         <br>
-        I made a game that was essentially "keep away" from the lumberjacks where the player controls a group
-        of trees. I used vibrating motors to function as bees, rustling in a flower. I collaborated with a classmate to
-        use a projector's speaker to be the output for a piano program we wrote, which could also record and play back
-        songs. For more information on all of these, and a few other projects and images, check out my <a href="https://itsmejuliet.wordpress.com/category/motors-lights-and-logic/">
+        I made a game that was essentially "keep away" from the lumberjacks where the player controls a group of trees. I used
+        vibrating motors to function as bees rustling in a flower. I collaborated with a classmate to use a projector's speaker
+        to be the output for a piano program we wrote, which could also record and play back songs. For more information on all
+        of these, and a few other projects and images, check out my <a href="https://itsmejuliet.wordpress.com/category/motors-lights-and-logic/">
         blog</a>.
       </p>
     </div>
     <div id="hidden-line-gallery"></div>
-    <div class="utube-slide-container">
+    <div class="video-slide-container">
       <div class="mySlides fade">
         <iframe class="utube" src="https://www.youtube.com/embed/4ca6SQIXHkI" frameborder="0" allowfullscreen></iframe>
         <div class="slide-text">Tree Box Game - internal workings</div>
@@ -84,13 +86,12 @@
         <div class="slide-text">Morse Code Pasta Box</div>
       </div>
 
-      <a class="prev" onclick="plusSlides(-1, 'mySlides')">&#10094;</a>
-      <a class="next" onclick="plusSlides(1, 'mySlides')">&#10095;</a>
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
     </div>
   </div>
     <script src='../project-scripts/slides.js'></script>
-    <script>showSlides(1, 'mySlides');</script>
     <div class="line"></div>
     <div id="tech-description">
       <p><span class="section-title">TOOLS</span></p>

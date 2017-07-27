@@ -1,0 +1,34 @@
+/* projects.html, fun.html */
+
+/* Dividing line */
+/*consolidate lines*/
+.line {
+  width: 1px;
+  height: 75px;
+  border-left: 2px solid;
+  border-right: 2px solid;
+  margin-left: 37.5px;
+  position: relative; }
+
+/* Table Details - projects.html, fun.html */
+td {
+  padding: 0px; }
+
+table {
+  border-collapse: collapse; }
+
+table tr td div {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.circle {
+  border-radius: 100%;
+  border: 2px solid;
+  width: 75px;
+  height: 75px;
+  position: relative; }
+
+#circle-table {
+  margin-left: 20%;
+}

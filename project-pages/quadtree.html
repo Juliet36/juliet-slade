@@ -3,17 +3,18 @@
   <head>
     <title>Quad Trees</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="../stylesheets/resume.css">
-    <link rel="stylesheet" type="text/css" href="../stylesheets/resume-alt.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/main-style.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/styles2.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/project-responsive.css">
 
   </head>
   <body>
-    <div id="nav1">
+    <div id="nav-container">
       <ul class="nav">
         <li>
-          <div class="dropdown">
+          <!-- <div class="dropdown"> -->
             <a class="active" href="../main-pages/projects.html">PROJECTS</a>
-            <div class="dropdown-content">
+            <!-- <div class="dropdown-content">
               <a href="./jshelp.html">js-help</a>
               <a href="./LilGuy.html">lil guy</a>
               <a href="./vjam.html">vectorJAM</a>
@@ -24,34 +25,35 @@
               <a href="./boxes.html">juliet's boxes</a>
               <a href="./mll.html">physical computing</a>
             </div>
-          </div>
+          </div> -->
         </li>
         <li>
-          <div class="dropdown">
+          <!-- <div class="dropdown"> -->
             <a href="../main-pages/fun.html">FOR FUN</a>
-            <div class="dropdown-content">
+            <!-- <div class="dropdown-content">
               <a href="./this-site.html">juliet website</a>
               <a href="./minesweeper.html">minesweeper</a>
             </div>
-          </div>
+          </div> -->
         </li>
         <li><a href="../main-pages/resume.html">RESUME</a></li>
         <li><a href="../index.html">BIO</a></li>
+        <li><a href="../main-pages/contactme.html">CONTACT ME</a></li>
       </ul>
     </div>
-    <div id="name">
-      <span><span id="juliet">quad</span> <span id="slade">trees</span></span>
+    <div id="page-header">
+      <span><span id="first-word">quad</span> <span id="second-word">trees</span></span>
     </div>
     <div class="line"></div>
-    <div id="combined">
-    <div id="descriptin">
+    <div id="project-details-container-wide-description">
+    <div id="wide-description">
       <p><span class="section-title">QUAD TREES</span></p>
-      <p><span class="title">SARAH LAWRENCE COLLEGE</span> | <span class="tag">DATABASES AND SERVER-SIDE PROGRAMMING</span>
-      <p><span class="details">Fall 2016</span></p>
-      <p>Conference project for Databases/Server-Side Programming. After looking into graph
-      databases and neo4j, I researched quad trees. Quad trees are a data structure for
-      storing and querying spatial data. Each node is either a leaf or has exactly four
-      children which are the four quadrants the space is split into.
+      <p><span class="section-details-1">SARAH LAWRENCE COLLEGE</span> | <span class="section-details-2">DATABASES AND SERVER-SIDE PROGRAMMING</span>
+      <p><span class="section-details-3">Fall 2016</span></p>
+      <p>This was a part of my conference work for Databases/Server-Side Programming. After looking into
+        graph databases and neo4j, I researched quad trees. Quad trees are a data structure for storing
+        and querying spatial data. Each node is either a leaf or has exactly four children which are the
+        four quadrants into which the space is split.
       <br>
       <br>
       Points represent data, and each node has a set limit of points that can be contained
@@ -59,14 +61,14 @@
       <br>
       <br>
       A large advantage of quad trees is seen in the neighbor-finding algorithm. The first
-      is "Fast Neighbor" which recurses only into the nodes that could have a neighbor to
-      the given point. The second, "Slow Neighbor" is the non-quad tree version of doing
+      is "Fast Neighbor" which recursively searches only the nodes that could have a neighbor
+      to the given point. The second, "Slow Neighbor," is the non-quad tree version of doing
       this. It examines every point, keeping track of the current closest point.
       <br>
       <br>
       In the visualizer, I have the neighbor algorithm run 200 times behind the scene to
       calculate the average time it takes to complete. Then, it runs once more to visualize.
-      The fast algorithm shades the nodes that are checked and marks the options for closest
+      The faster algorithm shades the nodes that are checked and marks the options for closest
       point in orange. The average speed is 0.00009 seconds, and it is clear that only a small
       portion of the space is traversed. The slow algorithm checks all of the points, marking
       them in purple, and marks those that were "closest" at one point in orange. The average

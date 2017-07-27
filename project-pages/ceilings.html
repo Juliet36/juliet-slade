@@ -3,17 +3,18 @@
   <head>
     <title>Inverse Realities</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="../stylesheets/resume.css">
-    <link rel="stylesheet" type="text/css" href="../stylesheets/resume-alt.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/main-style.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/styles2.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/project-responsive.css">
 
   </head>
   <body>
-    <div id="nav1">
+    <div id="nav-container">
       <ul class="nav">
         <li>
-          <div class="dropdown">
+          <!-- <div class="dropdown"> -->
             <a class="active" href="../main-pages/projects.html">PROJECTS</a>
-            <div class="dropdown-content">
+            <!-- <div class="dropdown-content">
               <a href="./jshelp.html">js-help</a>
               <a href="./LilGuy.html">lil guy</a>
               <a href="./vjam.html">vectorJAM</a>
@@ -24,34 +25,35 @@
               <a href="./boxes.html">juliet's boxes</a>
               <a href="./mll.html">physical computing</a>
             </div>
-          </div>
+          </div> -->
         </li>
         <li>
-          <div class="dropdown">
+          <!-- <div class="dropdown"> -->
             <a href="../main-pages/fun.html">FOR FUN</a>
-            <div class="dropdown-content">
+            <!-- <div class="dropdown-content">
               <a href="./this-site.html">juliet website</a>
               <a href="./minesweeper.html">minesweeper</a>
             </div>
-          </div>
+          </div> -->
         </li>
         <li><a href="../main-pages/resume.html">RESUME</a></li>
         <li><a href="../index.html">BIO</a></li>
+        <li><a href="../main-pages/contactme.html">CONTACT ME</a></li>
       </ul>
     </div>
-    <div id="name">
-      <span><span id="juliet">inverse</span> <span id="slade">realities</span></span>
+    <div id="page-header">
+      <span><span id="first-word">inverse</span> <span id="second-word">realities</span></span>
     </div>
     <div class="line"></div>
-    <div id="combined-gallery">
-    <div id="descriptoon">
+    <div id="project-details-container-narrow-description">
+    <div id="narrow-description">
       <p><span class="section-title">INVERSE REALITIES</span></p>
-      <p><span class="title">SARAH LAWRENCE COLLEGE</span> | <span class="tag">3D MODELING</span></p>
-      <p><span class="details">Fall 2016</span></p>
+      <p><span class="section-details-1">SARAH LAWRENCE COLLEGE</span> | <span class="section-details-2">3D MODELING</span></p>
+      <p><span class="section-details-3">Fall 2016</span></p>
       <p>As I leaned back to allow the hairdresser to wash my hair, I stared at the ceiling. I was
         at a loss as to what to focus on for my 3D Modeling conference. I remembered being a kid
         and sitting upside down on the couch and imagining what it would be like to walk on the
-        ceiling. Everything would hang straight up, lighting would be directed away from you, and
+        ceiling. Everything would hang straight up, the lights would be directed away from me, and
         there would be lots of strange obstacles.
         <br>
         <br>
@@ -64,13 +66,13 @@
         <br>
         I was thinking about art that would be interesting upside down as well, and considered
         using one of those optical illusions that are an old lady one way and a young girl the other
-        way or something. Then I remembered the Thatcher effect, "a phenomenon where it becomes more
+        way. Then I remembered the Thatcher effect, "a phenomenon where it becomes more
         difficult to detect local feature changes in an upside-down face, despite identical changes
-        being obvious in an upright face." So I used a Thatcher effect-ed picture of Margaret Thatcher.
+        being obvious in an upright face." So I used a Thatcher effected picture of Margaret Thatcher.
       </p>
     </div>
     <div id="hidden-line-gallery"></div>
-    <div class="slide-container">
+    <div class="landscape-slide-container">
       <div class="mySlides fade">
         <img style = "width: 100%" src="../project-images/circle_final.png" />
         <div class="slide-text">stucco circle</div>
@@ -96,13 +98,12 @@
         <div class="slide-text">more shadow play</div>
       </div>
 
-      <a class="prev" onclick="plusSlides(-1, 'mySlides')">&#10094;</a>
-      <a class="next" onclick="plusSlides(1, 'mySlides')">&#10095;</a>
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
     </div>
   </div>
     <script src='../project-scripts/slides.js'></script>
-    <script>showSlides(1, 'mySlides');</script>
     <div class="line"></div>
     <div id="tech-description">
       <p><span class="section-title">TOOLS</span></p>
