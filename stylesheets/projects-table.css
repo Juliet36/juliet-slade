@@ -1,90 +1,27 @@
 /*Table details - projects.html*/
 table tr:nth-child(2) td div {
   background-image: url("../project-images/jshelp-highlight.png");  }
-table tr:nth-child(2) td:hover div {
-  width: 95px;
-  height: 95px;
-  margin: -10px;
-  z-index: 1; }
-table tr:nth-child(2) td:hover ~ .project-name h3 {
-  margin-left: 40px; }
 
 table tr:nth-child(4) td div {
   background-image: url("../project-images/lil-guy-sky.jpg"); }
-table tr:nth-child(4) td:hover div {
-  width: 95px;
-  height: 95px;
-  margin: -10px;
-  z-index: 1; }
-table tr:nth-child(4) td:hover ~ .project-name h3 {
-  margin-left: 40px; }
 
 table tr:nth-child(6) td div {
   background-image: url("../project-images/v-jam.jpg"); }
-table tr:nth-child(6) td:hover div {
-  width: 95px;
-  height: 95px;
-  margin: -10px;
-  z-index: 1; }
-table tr:nth-child(6) td:hover ~ .project-name h3 {
-  margin-left: 40px; }
 
 table tr:nth-child(8) td div {
   background-image: url("../project-images/quadTreePoint2.png");}
-table tr:nth-child(8) td:hover div {
-  width: 95px;
-  height: 95px;
-  margin: -10px;
-  z-index: 1; }
-table tr:nth-child(8) td:hover ~ .project-name h3 {
-  margin-left: 40px; }
 
 table tr:nth-child(10) td div {
   background-image: url("../project-images/circle_final.png"); }
-table tr:nth-child(10) td:hover div {
-  width: 95px;
-  height: 95px;
-  margin: -10px;
-  z-index: 1; }
-table tr:nth-child(10) td:hover ~ .project-name h3 {
-  margin-left: 40px; }
 
 table tr:nth-child(12) td div {
   background-image: url("../project-images/cornell-box-thumb.png"); }
-table tr:nth-child(12) td:hover div {
-  width: 95px;
-  height: 95px;
-  margin: -10px;
-  z-index: 1; }
-table tr:nth-child(12) td:hover ~ .project-name h3 {
-  margin-left: 40px; }
 
 table tr:nth-child(14) td div {
   background-image: url("../project-images/vpl-nest.jpg");}
-table tr:nth-child(14) td:hover div {
-  width: 95px;
-  height: 95px;
-  margin: -10px;
-  z-index: 1; }
-table tr:nth-child(14) td:hover ~ .project-name h3 {
-  margin-left: 40px; }
-
+  
 table tr:nth-child(16) td div {
   background-image: url("../project-images/touch-box.jpg"); }
-table tr:nth-child(16) td:hover div {
-  width: 95px;
-  height: 95px;
-  margin: -10px;
-  z-index: 1; }
-table tr:nth-child(16) td:hover ~ .project-name h3 {
-  margin-left: 40px; }
 
 table tr:nth-child(18) td div {
   background-image: url("../project-images/leds-arduino.jpg"); }
-table tr:nth-child(18) td:hover div {
-  width: 95px;
-  height: 95px;
-  margin: -10px;
-  z-index: 1; }
-table tr:nth-child(18) td:hover ~ .project-name h3 {
-  margin-left: 40px; }

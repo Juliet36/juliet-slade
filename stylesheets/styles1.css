@@ -32,3 +32,10 @@ table tr td div {
 #circle-table {
   margin-left: 20%;
 }
+
+table tr td:hover .circle {
+  width: 85px;
+  height: 85px;
+  margin: -5px;
+  z-index: 1;
+}
