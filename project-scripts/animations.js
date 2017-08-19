@@ -5,5 +5,5 @@ $(document).ready(function() {
   function() {
     $('~ .project-name h3', this).animate({left:"-=25px"}, 200);
   });
-  $('.resume-section').accordion({collapsible:true});
+//  $('.resume-section').accordion({collapsible:true});
 });
