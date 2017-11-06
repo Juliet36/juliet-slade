@@ -70,6 +70,15 @@ a:hover {
   overflow: hidden;
 }
 
+/*thechartedpath.html*/
+#freelance-project {
+  border: 1px solid black;
+  width: 90%;
+  margin: auto;
+  padding: 2em;
+  overflow:hidden;
+}
+
 /*boxes.html, ceilings.html, minesweeper.html, mll.html, three-d.html, vjam.html,*/
 #project-details-container-narrow-description {
   border: 1px solid black;
@@ -97,6 +106,15 @@ a:hover {
   display: inline-block;
   vertical-align: top;
   margin-right: 1%;
+}
+
+/*thechartedpath.html*/
+#freelance-description {
+  width:60%;
+  display:inline-block;
+  min-width: 300px;
+  max-width: 1000px;
+  margin-bottom:4em;
 }
 
 /* quadtree.html, vpl.html*/
@@ -243,4 +261,18 @@ a:hover {
   float: right;
   display: inline-block;
   border: 1px solid;
+}
+
+/*thechartedpath.html*/
+#biz-card {
+  width: 30%;
+  display: inline-block;
+  vertical-align: top;
+  margin-left:6%;
+}
+
+#biz-card-img {
+  width:100%;
+  display:inline-block;
+  max-width:325px;
 }

@@ -8,6 +8,34 @@
   }*/
 }
 
+@media (max-width: 760px) {
+  #biz-card {
+    display: block;
+    width: 65%;
+    margin: auto;
+    float: none;
+  }
+
+  #freelance-description {
+    width: 95%;
+    display: block;
+    margin: auto;
+  }
+  #biz-card-img {
+    width:100%;
+    display:block;
+    margin-top: 2em;
+    margin-bottom:2em;
+
+  }
+
+  #freelance-project {
+    width: auto;
+    margin-left:1em;
+    margin-right:1em;
+  }
+}
+
 @media (max-width: 1078px) {
   #project-details-container-narrow-description {
     width: 100%;
