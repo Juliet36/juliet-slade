@@ -1,6 +1,9 @@
 /*Table details - fun.html*/
 table tr:nth-child(2) td div {
-  background-image: url("../project-images/js-logo.png");}
+  background-image: url("../project-images/rectangles-3.png");  }
 
 table tr:nth-child(4) td div {
+  background-image: url("../project-images/js-logo.png");}
+
+table tr:nth-child(6) td div {
   background-image: url("../project-images/minesweeper-2.png "); }
