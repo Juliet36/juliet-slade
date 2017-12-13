@@ -276,3 +276,9 @@ a:hover {
   display:inline-block;
   max-width:325px;
 }
+
+.rmbg-img {
+  width: 32%;
+  border: 1px solid black;
+  display: inline-block;
+}
